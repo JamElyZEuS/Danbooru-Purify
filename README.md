@@ -6,3 +6,4 @@ Usage:
 * Done
 
 Images unblur when hovering on them.
+~~i'm sorry it's a joke~~
