@@ -6,3 +6,5 @@ Usage:
 * Done
 
 Images unblur when hovering on them.
+
+**Disclaimer:** not all explicit images will be blurred, because some works have wrong rating tags or don't have them at all.
