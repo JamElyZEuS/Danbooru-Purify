@@ -17,7 +17,7 @@ var articles = document.getElementsByTagName('article');
 
 for (let i = 0; i < articles.length; i++) {
     var rating = articles[i].getAttribute('data-rating');
-    if (rating == 'e') {
+    if (rating == 'g') {
         var img = articles[i].firstElementChild.firstElementChild.firstElementChild.lastElementChild;
         img.classList.toggle("blur");
         img.addEventListener('mouseover', toggleBlur);
