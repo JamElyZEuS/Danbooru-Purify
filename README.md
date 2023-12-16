@@ -2,7 +2,7 @@
 ## The simplest user script ever to blur all explicit images on Danbooru.
 Usage:
 * Use your favorite userscript extension (I like TamperMonkey)
-* [Install the script](https://github.com/JamElyZEuS/Danbooru-Purify/raw/main/myscr.user.js)
+* [Install the script](https://github.com/JamElyZEuS/Danbooru-Purify/raw/main/myscr.user.js) (or [this edition](https://github.com/JamElyZEuS/Danbooru-Purify/raw/main_plus/myscr.user.js) that also filters questionable works)
 * Done
 
 Images unblur when hovering on them.
