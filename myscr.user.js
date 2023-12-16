@@ -17,7 +17,8 @@ var articles = document.getElementsByTagName('article');
 
 for (let i = 0; i < articles.length; i++) {
     var rating = articles[i].getAttribute('data-rating');
-    if (rating == 'e' || rating == 'q') {
+    var tags = articles[i].getAttribute('data-tags');
+    if (rating == 'e' || rating == 'q' || tags.search('nipple') != -1) {
         var img = articles[i].firstElementChild.firstElementChild.firstElementChild.lastElementChild;
         img.classList.toggle("blur");
         img.addEventListener('mouseover', toggleBlur);
